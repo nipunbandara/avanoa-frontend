@@ -1,3 +1,3 @@
 # avanoa-frontend
 
-Avanoa is an Application uses as a communication platform for people who has motor disabilities
+Avanoa is a communication tool for people who has motor disabilities which is operatable using eye movements.
