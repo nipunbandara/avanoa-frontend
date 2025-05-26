@@ -169,11 +169,12 @@ const Sidebar = () => {
 					<button class = 'sidebarbtn'>
 						<FiSettings />
 						<Link to="/settings">
-							<p className={sec5}>Settings</p>
+							<p className={sec5}>Settings
+							c: {counter} i: {index}	
+							</p>
 						</Link>
 						</button>
 					</li>
-					(c: {counter} i: {index}
 				</ul>
 			</div>
 		</div>

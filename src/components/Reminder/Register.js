@@ -6,7 +6,7 @@ import { connect } from "react-redux";
 import { updateIndex } from "../../reducers/navList/navListSlice";
 import { setCount } from "../../reducers/counter/counterSlice";
 import Appbar from "../../components/Appbar/Appbar";
-import { Title } from "@material-ui/icons";
+
 import axios from "../../libs/axios";
 import { addReminder } from "../../reducers/reminders/reminderSlice";
 import { mapTimeStr2Timestamp } from "./utils";

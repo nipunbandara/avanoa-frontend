@@ -69,7 +69,7 @@ const Register = () => {
         bodyClassName: "toast-failed",
       });
     }
-    handleReset();
+    //handleReset();
   };
 
   const handleReset = () => {

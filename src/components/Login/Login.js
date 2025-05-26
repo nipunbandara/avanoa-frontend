@@ -9,7 +9,6 @@ import "react-toastify/dist/ReactToastify.css";
 import Input from "../Input/Input";
 import "./login.css";
 import { AuthContext } from "../../context/AuthContext";
-import GoogleLogin from "react-google-login";
 
 const initialState = {
   name: "",
@@ -49,10 +48,10 @@ const Login = () => {
       localStorage.setItem("_appSignging", true);
       dispatch({ type: "SIGNING" });
     } catch (err) {
-      // toast(err.response.data.msg, {
-      //   className: "toast-failed",
-      //   bodyClassName: "toast-failed",
-      // });
+      toast(err.response.data.msg, {
+        className: "toast-failed",
+        bodyClassName: "toast-failed",
+      });
     }
   };
 

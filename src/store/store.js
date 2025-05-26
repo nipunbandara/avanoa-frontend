@@ -13,5 +13,5 @@ export default configureStore({
     navList: navListReducer,
     reminder: remindersReducer,
   },
-  enhancers: composeEnhancers
+  devTools: true
 })
